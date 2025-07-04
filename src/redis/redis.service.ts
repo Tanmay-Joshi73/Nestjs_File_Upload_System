@@ -23,6 +23,6 @@ export class RedisService {
 
  //Function to perfom TLS
  async TLS():Promise<any>{
-   return this.RetryMethods.Retry();
+   // return this.RetryMethods.Retry();
  }
 }

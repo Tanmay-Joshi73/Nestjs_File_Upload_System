@@ -38,11 +38,8 @@ export class UploadController {
         return this.upload.find()
     }
 
-    @Get('/GetRedisCacheData')
-    getCacheData():Promise<any>{
-
-    }
-
+   
+    
 
 
 }
