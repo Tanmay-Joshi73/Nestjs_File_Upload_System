@@ -14,6 +14,6 @@ import { RetryServiceService } from './retry-service/retry-service.service';
     ScheduleModule.forRoot(), //This Enables the Cron Job
     RedisModule  ],
   controllers: [AppController],
-  providers: [AppService, RedisService, RetryServiceService],
+  providers: [AppService, RetryServiceService],
 })
 export class AppModule {}

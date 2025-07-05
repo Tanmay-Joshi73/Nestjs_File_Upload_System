@@ -16,7 +16,7 @@ export class RetryServiceService {
   }
 
 
-@Cron(CronExpression.EVERY_30_SECONDS) ///This line of code works every 30 seconds
+// @Cron(CronExpression.EVERY_30_SECONDS) ///This line of code works every 30 seconds
   async Retry(): Promise<void> {
     console.log('🔁 Cron is running every 30 seconds...');
     // Your logic here
